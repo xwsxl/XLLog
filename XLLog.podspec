@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XLLog'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of XLLog.'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xiangliang' => 'xiangliang.leo@icloud.com' }
-  s.source           = { :git => 'git@github.com:xwsxl/XLLog.git', :tag => '1.0.0' }
+  s.source           = { :git => 'git@github.com:xwsxl/XLLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
