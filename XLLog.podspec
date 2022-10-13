@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'desc'
 
-  s.homepage         = 'https://github.com/xiangliang/XLLog'
+  s.homepage         = 'https://github.com/xwsxl/XLLog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xiangliang' => 'xiangliang.leo@icloud.com' }
