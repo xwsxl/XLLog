@@ -7,11 +7,19 @@
 //
 
 import UIKit
+import XLLog
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Log.startWith([DebugLogger.shared, ConsoleLogger.shared])
+        DebugLogger.shared.setKeyView(UIApplication.shared.keyWindow ?? self.view)
+        for i in 1...9 {
+            for j in i...9 {
+                Log.verbose(.VC, "\(i) * \(j) = \(i * j)")
+            }
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 

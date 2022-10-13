@@ -1,0 +1,6 @@
+framework module Pods_XLLog_Tests {
+  umbrella header "Pods-XLLog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
